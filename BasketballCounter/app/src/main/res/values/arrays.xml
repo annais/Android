@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="jugadores" >
+        <item>Jose</item>
+        <item>Toni</item>
+        <item>Ulises</item>
+        <item>Miguel</item>
+        <item>Rafa</item>
+        <item>Pablo</item>
+    </string-array>
+</resources>

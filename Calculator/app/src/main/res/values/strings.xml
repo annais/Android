@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="Mma">M+</string>
+    <string name="Mme">M-</string>
+    <string name="mc">MC</string>
+    <string name="ms">MS</string>
+    <string name="mr">MR</string>
+    <string name="sumar">+</string>
+    <string name="restar">-</string>
+    <string name="multiplicar">*</string>
+    <string name="dividir">/</string>
+    <string name="coma">.</string>
+    <string name="cero">0</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+    <string name="c">C</string>
+    <string name="igual">=</string>
+    <string name="resdivision">%</string>
+    <string name="raiz">√</string>
+    <string name="pi">π</string>
+    <string name="Sin">Sin</string>
+    <string name="cos">Cos</string>
+    <string name="tan">Tan</string>
+    <string name="xdos">x²</string>
+    <string name="xtres">x³</string>
+    <string name="xy">Xⁿ</string>
+    <string name="in">in</string>
+    <string name="log">Log</string>
+    <string name="ex">Ex</string>
+    <string name="e">e</string>
+    <string name="sinh">sinh</string>
+    <string name="cosh">cosh</string>
+    <string name="tanh">tanh</string>
+
+</resources>

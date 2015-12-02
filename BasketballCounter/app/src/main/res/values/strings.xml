@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BasketballCounter</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="jugadores">Jugadores</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="home">HOME</string>
+    <string name="guest">GUEST</string>
+</resources>
