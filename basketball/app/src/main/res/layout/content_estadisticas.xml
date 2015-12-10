@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:id="@+id/tveh"
+        android:layout_margin="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/guest"
+        android:id="@+id/tveg"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right|top" />
+
+    <ListView
+        android:id="@+id/lstJugadoresh"
+        android:layout_width="198dp"
+        android:layout_height="505dp"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:padding="10dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:dividerHeight="10dp"
+        android:layout_gravity="right|center_vertical" />
+
+    <ListView
+        android:id="@+id/lstJugadoresg"
+        android:layout_width="198dp"
+        android:layout_height="505dp"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:padding="10dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:dividerHeight="10dp"
+        android:layout_gravity="left|center_vertical" />
+
+</FrameLayout>

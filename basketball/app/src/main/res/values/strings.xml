@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Baloncesto</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="jugadores">Jugadores</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="home">HOME</string>
+    <string name="guest">GUEST</string>
+    <string name="action_nombre">Nombre de equipo</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="name_home">Nombre del equipo de casa:</string>
+    <string name="name_guest">Nombre del equipo visitante:</string>
+    <string name="action_equipo">Añadir Equipo</string>
+    <string name="action_estadistica">Estadistica</string>
+    <string name="title_activity_team">TeamActivity</string>
+    <string name="enjuego">En juego:</string>
+    <string name="reserva">Reservas:</string>
+    <string name="guardar">Guardar</string>
+    <string name="title_activity_estadisticas">EstadisticasActivity</string>
+    <string name="listado_de_jugadores">Jugadores</string>
+    <string name="title_activity_jugadores_adapter">JugadoresAdapter</string>
+    <string name="puntos">Puntos</string>
+    <string name="camiseta">Camiseta</string>
+</resources>

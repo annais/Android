@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nsvScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:id="@+id/lbltext0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/enjuego" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/eth1"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/lbltext0"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/eth2"
+        android:layout_marginRight="15dp"
+        android:layout_alignTop="@+id/eth1"
+        android:layout_toRightOf="@+id/eth1"
+        android:layout_toEndOf="@+id/eth1" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/eth3"
+        android:layout_marginRight="15dp"
+        android:layout_alignTop="@+id/eth2"
+        android:layout_toRightOf="@+id/eth2"
+        android:layout_toEndOf="@+id/eth2" />
+
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/eth4"
+        android:layout_marginRight="15dp"
+        android:layout_alignTop="@+id/eth3"
+        android:layout_toRightOf="@+id/eth3"
+        android:layout_toEndOf="@+id/eth3" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/eth5"
+        android:layout_marginRight="15dp"
+        android:layout_alignTop="@+id/eth4"
+        android:layout_toRightOf="@+id/eth4"
+        android:layout_toEndOf="@+id/eth4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reserva"
+        android:id="@+id/textView"
+        android:layout_below="@+id/eth1"
+        android:layout_alignLeft="@+id/eth1"
+        android:layout_alignStart="@+id/eth1" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etr1"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etr2"
+        android:layout_marginRight="15dp"
+        android:layout_alignTop="@+id/etr1"
+        android:layout_toRightOf="@+id/etr1"
+        android:layout_toEndOf="@+id/etr1" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etr3"
+        android:layout_marginRight="15dp"
+        android:layout_alignTop="@+id/etr2"
+        android:layout_toRightOf="@+id/etr2"
+        android:layout_toEndOf="@+id/etr2" />
+
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etr4"
+        android:layout_marginRight="15dp"
+        android:layout_alignTop="@+id/etr3"
+        android:layout_toRightOf="@+id/etr3"
+        android:layout_toEndOf="@+id/etr3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelar"
+        android:id="@+id/btnCancelar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/btnAceptar"
+        android:layout_alignTop="@+id/btnAceptar"
+        android:layout_toLeftOf="@+id/btnAceptar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aceptar"
+        android:id="@+id/btnAceptar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/etr4"
+        android:layout_alignStart="@+id/etr4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar"
+        android:id="@+id/btnGuardar"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/etr4"
+        android:layout_alignEnd="@+id/etr4" />
+
+
+</RelativeLayout>
