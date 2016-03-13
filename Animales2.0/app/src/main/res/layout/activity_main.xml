@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:paddingLeft="150dp"
+    android:paddingRight="150dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="#ffffff">
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/ibPerro"
+        android:background="#ffffff" />
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/ibGato"
+        android:layout_below="@+id/ibPerro"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff" />
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/ibGallo"
+        android:layout_toRightOf="@+id/ibPerro"
+        android:layout_toEndOf="@+id/ibPerro"
+        android:background="#ffffff" />
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/ibVaca"
+        android:layout_below="@+id/ibGallo"
+        android:layout_toRightOf="@+id/ibPerro"
+        android:layout_toEndOf="@+id/ibPerro"
+        android:background="#ffffff" />
+</RelativeLayout>
