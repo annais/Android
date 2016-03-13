@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.anais.todoturismo.ImagenFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ivImagenMax"/>
+
+    <TextView
+        android:id="@+id/tvImgNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivImagenMax"
+        android:textSize="25dp"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:background="@color/background_footer"
+        android:layout_gravity="bottom" />
+
+</FrameLayout>
